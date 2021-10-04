@@ -11,6 +11,8 @@
     margin: 0 auto;
 }
 
+/****** box ******/
+
 .box{
     width: 300px;
     float: left;
@@ -25,6 +27,8 @@
     display:table;
     clear: both;
 }
+
+/***** immagini *****/
 
 .primo{
     background-image:url(../img/1.webp);
@@ -73,6 +77,8 @@
 .sesto:hover{
     background-image: url(../img/6b.webp);
 }
+
+/****** prezzi e info ******/
 
 #cuore{
     border: 10px solid white;
@@ -128,9 +134,9 @@ div>h3{
 
 /**** debug *****/
 
-.debug.container{
+/* .debug.container{
     height: 800px;
-}
+} */
 
 /* .debug .box{
     height: 450px;
