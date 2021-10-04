@@ -12,9 +12,11 @@
 }
 
 .box{
-    width: calc(100% / 6 - 10px);
+    width: 300px;
     float: left;
     margin: 10px;
+    height: 450px;
+    background-size: cover;
     position: relative;
 }
 
@@ -24,6 +26,57 @@
     clear: both;
 }
 
+.primo{
+    background-image:url(../img/1.webp);
+}
+
+.primo:hover{
+    background-image: url(../img/1b.webp);
+}
+
+.secondo{
+    background-image: url(../img/2.webp);
+}
+
+.secondo:hover{
+    background-image: url(../img/2b.webp);
+}
+
+#cuore{
+    border: 10px solid white;
+    background-color: white;
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+
+.percentuale{
+    border: 3px solid rgb(199, 21, 60);
+    background-color:rgb(199, 21, 60);
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+}
+
+.ecologico{
+    border: 3px solid green;
+    background-color: green;
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    left: 37px;
+    bottom: 10px;
+}
+
+.prodotti{
+    position: absolute;
+    left: 0;
+    bottom: -60px;
+    font-size: 12px;
+}
+
 
 /**** debug *****/
 
@@ -31,13 +84,13 @@
     height: 800px;
 }
 
-.debug .box{
-    height: 350px;
+/* .debug .box{
+    height: 450px;
     background-color: grey;
     border: 1px solid black;
-    width: 250px;
-}
+    width: 300px;
+} */
 
-.box:hover{
+/* .box:hover{
     background-color: blue;
-}
+} */
