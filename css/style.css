@@ -77,6 +77,18 @@
     font-size: 12px;
 }
 
+div>h3{
+    text-transform: uppercase;
+}
+
+.prezzo-scontato{
+    color:rgb(255, 51, 0);
+    font-weight: bold;
+}
+
+.prezzo-pieno{
+    text-decoration: line-through;
+}
 
 /**** debug *****/
 
